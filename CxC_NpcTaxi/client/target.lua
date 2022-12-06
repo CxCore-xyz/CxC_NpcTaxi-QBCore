@@ -1,4 +1,5 @@
 Citizen.CreateThread(function()
+ if Config.UseTarget then       
     exports['qb-target']:AddBoxZone("Taxi1", Config.CallLocation, 1.8, 2.6, {
         name="Taxi1",
         heading= 85.704956,
@@ -20,9 +21,11 @@ Citizen.CreateThread(function()
         },
         distance = Config.TargetDistance
     })
+  end          
 end)
 
 Citizen.CreateThread(function()
+ if Config.UseTarget then       
     exports['qb-target']:AddBoxZone("Taxi2", Config.CallLocation2, 1.8, 2.6, {
         name="Taxi2",
         heading= 85.704956,
@@ -44,9 +47,11 @@ Citizen.CreateThread(function()
         },
         distance = Config.TargetDistance
     })
+   end          
 end)
 
 Citizen.CreateThread(function()
+  if Config.UseTarget then
     exports['qb-target']:AddBoxZone("Taxi3", Config.CallLocation3, 1.8, 2.6, {
         name="Taxi3",
         heading= 85.704956,
@@ -68,9 +73,11 @@ Citizen.CreateThread(function()
         },
         distance = Config.TargetDistance
     })
+   end         
 end)
 
 Citizen.CreateThread(function()
+  if Config.UseTarget then      
     exports['qb-target']:AddBoxZone("Taxi4", Config.CallLocation4, 1.8, 2.6, {
         name="Taxi4",
         heading= 85.704956,
@@ -92,9 +99,11 @@ Citizen.CreateThread(function()
         },
         distance = Config.TargetDistance
     })
+  end           
 end)
 
 Citizen.CreateThread(function()
+  if Config.UseTarget then       
     exports['qb-target']:AddBoxZone("Taxi5", Config.CallLocation5, 1.8, 2.6, {
         name="Taxi5",
         heading= 85.704956,
@@ -116,4 +125,5 @@ Citizen.CreateThread(function()
         },
         distance = Config.TargetDistance
     })
+   end         
 end)

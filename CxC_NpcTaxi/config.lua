@@ -5,8 +5,10 @@ Config.UseTarget = true -- False or true if you want to use target export
 Config.TargetScript = "qb-target" -- Your target script
 Config.TargetIcon = "" -- Icon wich will be shown on selecting options
 Config.TargetDistance = 2.5 -- Distance wich target will detect location
-Config.TargetTranslation = "Call Taxi" -- Translation for target text
-Config.TargetTrigger = "CxC:NpcTaxi:call" -- Trigger for target
+Config.TargetTranslation = "Call Taxi" -- Translation for requesting taxi on target
+Config.TargetTranslationCancel = "Cancel Taxi" -- Translation for canceling taxi on target
+Config.TargetTrigger = "CxC:NpcTaxi:call" -- Trigger for requesting taxi on target
+Config.TargetCancelTrigger = "CxC:Taxi:cancelTaxi" -- Trigger for canceling taxi on target
 
 --Vehicle settings
 Config.hash = -573920724 -- hash of Taxidriver

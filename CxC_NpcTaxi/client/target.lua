@@ -35,7 +35,12 @@ Citizen.CreateThread(function()
                 event = Config.TargetTrigger,
                 icon = Config.TargetIcon, 
                 label = Config.TargetTranslation,
-            },
+            },                  
+            {
+                event = Config.TargetCancelTrigger,
+                icon = Config.TargetIcon, 
+                label = Config.TargetTranslationCancel,
+            }                     
         },
         distance = Config.TargetDistance
     })
@@ -55,6 +60,11 @@ Citizen.CreateThread(function()
                 icon = Config.TargetIcon, 
                 label = Config.TargetTranslation,
             },
+            {
+                event = Config.TargetCancelTrigger,
+                icon = Config.TargetIcon, 
+                label = Config.TargetTranslationCancel,
+            }                     
         },
         distance = Config.TargetDistance
     })
@@ -74,6 +84,11 @@ Citizen.CreateThread(function()
                 icon = Config.TargetIcon, 
                 label = Config.TargetTranslation,
             },
+            {
+                event = Config.TargetCancelTrigger,
+                icon = Config.TargetIcon, 
+                label = Config.TargetTranslationCancel,
+            }                     
         },
         distance = Config.TargetDistance
     })
@@ -93,6 +108,11 @@ Citizen.CreateThread(function()
                 icon = Config.TargetIcon, 
                 label = Config.TargetTranslation,
             },
+            {
+                event = Config.TargetCancelTrigger,
+                icon = Config.TargetIcon, 
+                label = Config.TargetTranslationCancel,
+            }                     
         },
         distance = Config.TargetDistance
     })

@@ -56,3 +56,5 @@ Config.SpawnPoints = {
 	SandyShores = {x = 1771.84, y = 3660.44, z = 34.37, h = 30.81},
 	PaletoBay = {x = -125.29, y = 6287.95, z = 31.38, h = 313.97},
 }
+
+Config.Debug = false -- IF you want printing to console make it = true

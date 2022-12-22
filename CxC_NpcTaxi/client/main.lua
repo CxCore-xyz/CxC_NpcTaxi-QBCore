@@ -21,8 +21,16 @@ local onTour = false
 local driveFinish = nil
 
 
-RegisterNetEvent('CxC:Taxi:killTaxiBlip') AddEventHandler('CxC:Taxi:killTaxiBlip', function() RemoveBlip(CarBlip) end)
-RegisterNetEvent('CxC:Taxi:cancelTaxi') AddEventHandler('CxC:Taxi:cancelTaxi', function(message) atTarget(message) end)
+RegisterNetEvent('CxC:Taxi:killTaxiBlip')
+AddEventHandler('CxC:Taxi:killTaxiBlip', function() 
+		RemoveBlip(CarBlip) 
+end)
+
+RegisterNetEvent('CxC:Taxi:cancelTaxi') 
+AddEventHandler('CxC:Taxi:cancelTaxi', function(message) 
+		atTarget(message) 
+end)
+
 RegisterNetEvent('CxC:NpcTaxi:call')
 AddEventHandler('CxC:NpcTaxi:call', function(coords)
 	if customer then

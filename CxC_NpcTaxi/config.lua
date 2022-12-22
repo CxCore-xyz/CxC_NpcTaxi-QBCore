@@ -1,5 +1,8 @@
 Config = {}
 
+--Fuel script
+Config.FuelScript = "LegacyFuel" -- Your fuel script name
+
 --Target settings
 Config.UseTarget = true -- False or true if you want to use target export
 Config.TargetScript = "qb-target" -- Your target script

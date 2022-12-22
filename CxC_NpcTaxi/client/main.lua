@@ -77,7 +77,7 @@ AddEventHandler('CxC:NpcTaxi:call', function(coords)
                         SetEntityHeading(callback_vehicle, heading)
 			TaskWarpPedIntoVehicle(ped, callback_vehicle, -1)
 			SetVehicleHasBeenOwnedByPlayer(callback_vehicle, true)
-                        exports['LegacyFuel']:SetFuel(callback_vehicle, 100.0)
+                        exports[Config.FuelScript]:SetFuel(callback_vehicle, 100.0)
 			taxiBlip = true
 			globalTaxi = callback_vehicle
 			SetEntityAsMissionEntity(globalTaxi, true, true)
